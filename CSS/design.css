@@ -4,15 +4,15 @@
 }*/
 
 body{
-	font-size: 16px;
+	font-size: 32px;
 }
 
 header h1{
-	color:black;
+	color:lightgreen;
 }
 
 header h2{
-	color:darkgray;
+	color:silver;
 }
 
 section#lorem{/* Selecciona los elementos que se el identificador*/
