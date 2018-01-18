@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--Contiene información de la página
+	Enlaza archivos css
+	Enlaza archivos de js
+	Añade fuentes externas
+	metadatos.-->
+	<meta charset="UTF-8">
+	<title>Tu Mejor Colección</title> <!-- Etiqueta de la pestaña-->
+	<link rel="stylesheet" href="../CSS/design.css">
+	<link rel="stylesheet" href="../CSS/normalize.css">
+	<script src="..//modernizr-custom.js"></script>
+</head>
+
+<body><!-- Aquí se encuentra el contenido de la página. -->
+
+	<header>
+	<!--Logotipo
+		nombre -> h1
+		nav
+		banner
+	-->
+		<h1>
+			El Mejor Coleccionable
+		</h1>
+		<h2>
+			Elige lo mejor para tu coleeción.
+		</h2>
+
+		<nav>
+			<ul>
+				<li>
+					<a class="prueba grande" href="#ejemplo">
+					Productos</a>
+				</li>
+
+				<li>
+					<a class="prueba" href="#packs-promos">Paquetes y promociones</a>
+				</li>
+
+				<li>
+					<a class="prueba grande" href="#">Inicia sesión</a>
+				</li>
+
+				<li>
+					<a class="prueba" href="#">Registrate</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+			<section id="lorem">
+				<h3>Ipsum Lorem</h3>
+				<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+				</p>
+			</section>
+			
+			<section id="productos">
+				<h3>Poductos</h3>
+				<figure>
+					<img src="edward.jpg" alt="Figura de Edward Elric">
+					<figcaption>Edward Elric - Full Metal Alchemist</figcaption>
+				</figure>
+				<figure>
+					<img src="alphonse.jpg" alt="Figura de Alphonse Elric">
+					<figcaption>Alphonse Elric - Full Metal Alchemist</figcaption>
+				</figure>
+				<figure>
+					<img src="royMustang.jpg" alt="Figura de Roy Mustang">
+					<figcaption>Roy Mustang - Full Metal Alchemist</figcaption>
+				</figure>
+				<figure>
+					<img src="ryuko.jpg" alt="Figura de Ryuko">
+					<figcaption>Ryuko Matoi - Killa Kill</figcaption>
+				</figure>
+				<figure>
+					<img src="Mercy.jpg" alt="Figura de Mercy">
+					<figcaption>Mercy - Overwatch</figcaption>
+				</figure>
+			</section>
+
+			<section id="packs-promos">
+			<h3>
+				Paquetes y Promociones
+			</h3>
+				<p>En la compra de 2 figuras coleciconesbles, te puedes llevar la tercera figura totalmente <span>GRATIS</span></p>
+
+				<div>
+					<img src="dosPorUno.jpg" alt="promoción">
+				</div>
+				
+				<p>También, en una compra mayor a 5 articulos, el envio es totalmente grtis dentro de la republica.</p>
+
+			<!--<section>
+				<div id="imagen">
+					<audio src="Overwatch Soundtracks - Victory Theme.mp3" type="audio/mp3" controls="controls">
+					</audio>
+				</div>
+			
+				<div id="video">
+					<iframe src="https://www.youtube.com/embed/oQkF4oflFUU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div> -->
+			</section>
+
+			<form id='form' name='form' method='post' action='suscribe.php'>
+				<span>Enterate de los nuevos coleccionables que estarán disponible.</span>
+
+				<input id ='email' name='email' type='text' placeholder='Intruduce tu email' onfocus="if(this.placeholder == ' ') this.placeholder ='Introduce tu email'" />
+
+				<input type='submit' name='Submit' id="button" value="Suscribete" />
+			</form>
+	</main>
+
+	<footer>
+		<p>Contactanos en:</p>
+
+		<div>
+			<img src="gmail.png" alt="Correo Electronico"> tu_mejor_colec@gmail.com
+		</div>
+		<div>
+			<a target="_blank" href="https://www.facebook.com/"><img src="facebook.png" alt="Facebook"></a>
+		</div>
+		<div>
+			<a target="_blank" href="https://www.twitter.com"><img src="twitter.png" alt="Twitter"></a>
+		</div>
+		<div>
+			<a target="_blank" href="https://instagram.com"><img src="instagram.png" alt="Instagram"></a>
+		</div>
+
+		<div class="fija"></div>
+		<div class="porcentual"></div>
+	</footer>
+
+</body>
+</html>

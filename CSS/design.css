@@ -1,0 +1,52 @@
+/*elemento{
+	propiedad : valor;
+	propiedad : valor;
+}*/
+
+body{
+	font-size: 16px;
+}
+
+header h1{
+	color:black;
+}
+
+header h2{
+	color:darkgray;
+}
+
+section#lorem{/* Selecciona los elementos que se el identificador*/
+	color:red;		
+}
+
+.prueba{ /* Selecciona todos los elementos que tenfan la clase "prueba"*/
+	color:orange;
+}
+
+.grande{/*Selecciona todos los elementos que tenggan la clase "grande"*/
+	font-size: 20px;
+}
+
+/*li + li{ || ("+") Selecciona a todos los elementos hermanos del mismo tipo de elemento
+	color:yellow;
+}*/
+
+div > p{ /*Selecciona solo y a todos los hijos de "div"*/
+	color: blue;
+}
+
+h2[hola="saludos"]{#DAD189
+	color: blue;
+}
+
+div.fija{
+	height: 100px;
+	width: 100px;
+	background: rgb(255,0,255);
+}
+
+div.porcentual{
+	height: 100px;
+	width: 40%;
+	background: blue;
+}
